@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 8</title>
+    <script src="pesquisa.js"></script>
+</head>
+<body>
+
+    <form id="formulario">
+        <h2>Formulário de Pesquisa</h2>
+        <p>Informe a sua idade:</p>
+        <input type="text" id="idade" placeholder="Digite sua idade"/>
+
+        <p>Informe o seu sexo:</p>
+        <ol>
+            <li>Feminino</li>
+            <li>Masculino</li>
+            <li>Outros</li>
+        </ol>
+        <input type="number" id="sexo" placeholder="Digite seu sexo"/>
+
+        <p>Informe a sua opnião:</p>
+        <ol>
+            <li>Péssimo</li>
+            <li>Regular</li>
+            <li>Bom</li>
+            <li>Ótimo</li>
+        </ol>
+        <input type="number" id="opiniao" placeholder="Digite sua opinião"/>
+
+        <p></p>
+        
+    </form>
+    <button onclick="addPesquisa()">Enviar pesquisa</button>
+
+    <h2>Resultado pesquisa</h2>
+    <button onclick="calcResult()">Calcular Resultado</button>
+
+    <div id="resultado" style="margin-top: 20px;"></div>
+    
+    
+</body>
+</html>
