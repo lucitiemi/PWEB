@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 11</title>
+</head>
+<body>
+    <script>
+
+        // Primeira forma: criando com {}
+        let funcionario1 = {};
+        funcionario1.matricula = "123";
+        funcionario1.nome = "Leonardo";
+        funcionario1.funcao = "engenheiro";
+
+        // Segunda forma: literal
+        let funcionario2 = {
+            matricula: "456",
+            nome: "Marcela",
+            funcao: "gerente"
+        }
+
+        // Terceira forma: usando funcao construtora
+        function Funcionario(matricula, nome, funcao) {
+            this.matricula = matricula;
+            this.nome = nome;
+            this.funcao = funcao;
+        }
+        let funcionario3 = new Funcionario("789", "Renato", "secretario");
+
+        alert(`FUNCIONARIO 1: \n
+        matricula = ${funcionario1.matricula} 
+        nome = ${funcionario1.nome}
+        funcao = ${funcionario1.funcao}`);
+
+        alert(`FUNCIONARIO 2: \n
+        matricula = ${funcionario2.matricula} 
+        nome = ${funcionario2.nome}
+        funcao = ${funcionario2.funcao}`);
+
+        alert(`FUNCIONARIO 3: \n
+        matricula = ${funcionario3.matricula} 
+        nome = ${funcionario3.nome}
+        funcao = ${funcionario3.funcao}`);
+        
+
+    </script>
+    
+</body>
+</html>
