@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 13</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="funcoes.js"></script>
+</head>
+<body>
+    <h1 id="status">Janela Fechada</h1>
+  
+    <img 
+        id="janela"
+        src="imagens/fechada.png"
+        alt="Janela"
+        onmouseover="abrirJanela(this)"
+        onmouseout="fecharJanela(this)"
+        onclick="quebrarJanela(this)"
+    >
+    
+    <br> <br>
+
+    <button onclick="consertarJanela()">Consertar Janela</button>
+</body>
+</html>
