@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 14</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="funcoes.js"></script>
+</head>
+<body>
+    <h2>Digite um texto:</h2>
+
+    <input type="text" id="meuTexto" oninput="atualizarTexto()">
+
+    <br><br>
+
+    <label>
+        <input type="radio" name="transformacao" value="maiuscula" onchange="atualizarTexto()"> Maiúsculas
+    </label>
+    <label>
+        <input type="radio" name="transformacao" value="minuscula" onchange="atualizarTexto()"> Minúsculas
+    </label>
+</body>
+</html>
