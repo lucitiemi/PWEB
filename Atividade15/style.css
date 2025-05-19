@@ -1,0 +1,48 @@
+body {
+  background-color: #84c4da; /* azul claro */
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  color: black;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 80px;
+}
+
+.pesquisa {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.pesquisa small {
+  font-weight: normal;
+  font-style: italic;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.botoes {
+  margin-top: 15px;
+  text-align: center;
+}
