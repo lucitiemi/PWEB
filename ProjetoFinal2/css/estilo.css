@@ -1,0 +1,61 @@
+body {
+    background-color: #1F0312;
+}
+
+.container {
+    background-color: #1F0312;
+    font-family: "Asap", sans-serif;
+}
+
+header {
+    background-color: #FFF5DE;
+    height: 150px;
+}
+
+.title-font {
+    font-family: "Libre Bodoni", serif;
+}
+
+.header-img {
+    height: 150px;
+    width: auto;
+    max-height: 100%; /* importante para limitar à altura do header */
+    object-fit: contain; /* mantém proporção sem cortar a imagem */
+}
+
+.linha {
+    background-color: #B8D9C8;
+    height: 12px;
+    margin-top: 7px;
+}
+
+.bg-rosa {
+    background-color: #917081;
+}
+.bg-roxo {
+    background-color: #1F0312;
+}
+.text-rosa {
+    color: #917081;
+}
+.bg-creme {
+    background-color: #FFF5DE;
+}
+
+.shadow-black {
+    box-shadow: 5px 5px 8px 2px rgba(2, 2, 2, 0.30);
+}
+
+[data-bs-theme="dark"] label {
+  color: var(--bs-body-color);
+}
+
+.btn-input-img :hover {
+  cursor: pointer;
+}
+.btn-input-img {
+  min-height: 200px;
+}
+.btn-input-img img {
+  object-fit: contain;
+}
